@@ -34,6 +34,5 @@ func main() {
 
 	default:
 		fmt.Println("Unknown option, no action taken")
-
 	}
 }
