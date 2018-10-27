@@ -1,17 +1,18 @@
 package main
 
-import (
-  "fmt"
-)
-
-var (
-  message string = "Hello World"
-)
-
 func main() {
-  fmt.Println(message)
-}
+	var intVar int
+	intVar = 43
+	println(intVar)
 
-func init() {
-  message = "Hello Go"
+	var floatVar32 float32 = 42.
+	println(floatVar32)
+
+	myString := "Hello Go"
+	println(myString)
+
+	myComplex := complex(2, 3)
+	println(myComplex)
+	println(real(myComplex))
+	println(imag(myComplex))
 }
